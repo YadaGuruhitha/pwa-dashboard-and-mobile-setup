@@ -1,0 +1,27 @@
+{
+  "metrics": {
+    "accuracy": 0.981,
+    "precision": 0.9947,
+    "recall": 0.9567,
+    "f1_score": 0.9754,
+    "mae_volume_l_sqm": 1.265,
+    "mae_duration_mins": 1.71,
+    "n_training_samples": 4000,
+    "champion_model": "Random Forest",
+    "mlflow_experiment": "Smart_Irrigation_Optimization",
+    "mlflow_run_id": "808e7632a4b7497496e182ef519de998"
+  },
+  "feature_importances": {
+    "soil_moisture": 0.3845,
+    "soil_temp": 0.0325,
+    "air_temp": 0.0409,
+    "air_humidity": 0.0188,
+    "rainfall_forecast": 0.0556,
+    "wind_speed": 0.0174,
+    "solar_radiation": 0.0295,
+    "days_since_irrigation": 0.3052,
+    "crop_type": 0.0091,
+    "growth_stage": 0.0385,
+    "soil_type": 0.068
+  }
+}

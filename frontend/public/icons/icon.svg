@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="36" fill="#1b4d3e"/>
+  <circle cx="96" cy="96" r="70" fill="#2e7d32" stroke="#81c784" stroke-width="4"/>
+  <!-- Leaf / Plant -->
+  <path d="M96 50 C120 50 135 70 135 105 C135 125 118 142 96 142 C74 142 57 125 57 105 C57 70 72 50 96 50 Z" fill="#81c784"/>
+  <!-- Water Droplet Inside -->
+  <path d="M96 76 C105 92 110 102 110 112 A14 14 0 0 1 82 112 C82 102 87 92 96 76 Z" fill="#38bdf8"/>
+  <circle cx="96" cy="118" r="4" fill="#ffffff" opacity="0.8"/>
+</svg>

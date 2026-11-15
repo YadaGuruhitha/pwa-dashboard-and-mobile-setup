@@ -1,0 +1,43 @@
+{
+  "experiment": "Smart_Irrigation_Optimization",
+  "tracking_uri": "sqlite:///C:/Users/padak/Downloads/AI powered/mlruns/mlflow.db",
+  "models": [
+    {
+      "model_name": "Random Forest (Production Champion)",
+      "run_id": "808e7632a4b7497496e182ef519de998",
+      "accuracy": 0.981,
+      "precision": 0.9947,
+      "recall": 0.9567,
+      "f1_score": 0.9754,
+      "mae_volume": 1.265,
+      "r2_volume": 0.996,
+      "mae_duration": 1.71,
+      "status": "CHAMPION"
+    },
+    {
+      "model_name": "Gradient Boosting (Challenger)",
+      "run_id": "53957383ba6a4981ab2384181a9986cb",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "mae_volume": 1.149,
+      "r2_volume": 0.997,
+      "mae_duration": 0.89,
+      "status": "CHALLENGER"
+    },
+    {
+      "model_name": "Decision Tree (Baseline Benchmark)",
+      "run_id": "b29f0db5d5ea49e0a7dd83e68b752f1f",
+      "accuracy": 0.977,
+      "precision": 0.992,
+      "recall": 0.9491,
+      "f1_score": 0.9701,
+      "mae_volume": 4.906,
+      "r2_volume": 0.94,
+      "mae_duration": 1.67,
+      "status": "BASELINE"
+    }
+  ],
+  "champion": "Random Forest (Production Champion)"
+}
